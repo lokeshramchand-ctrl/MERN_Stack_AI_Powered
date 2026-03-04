@@ -1,0 +1,21 @@
+{
+  "name": "student-assistant-server",
+  "version": "1.0.0",
+  "description": "Backend API for AI-powered student assistant",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.56.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
