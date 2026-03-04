@@ -75,10 +75,10 @@ Create `server/.env` from `server/.env.example`:
 PORT=5000
 AI_PROVIDER=auto
 
-OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_API_KEY=
 OPENAI_MODEL=gpt-4o-mini
 
-GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY=
 GEMINI_MODEL=gemini-1.5-flash
 ```
 
@@ -185,4 +185,3 @@ This avoids sending raw user text directly to the model and gives predictable ou
 
 - This assignment does not require database persistence, so MongoDB is not used for storage.
 - The codebase still follows a MERN-style split (`client` + `server`) and can be extended with MongoDB later.
-# MERN_Stack_AI_Powered
